@@ -2,18 +2,14 @@
   "source": {
     "type": "snowflake",
     "config": {
-      "host_port": "account.region.service.snowflakecomputing.com",
-      "username": "username",
-      "password": "strong_password",
-      "database": "SNOWFLAKE_SAMPLE_DATA",
-      "warehouse": "warehouse_name",
-      "account": "account_name",
+      "host_port": "fr87930.ap-south-1.aws.snowflakecomputing.com",
+      "username": "codingwithabhi",
+      "database": "testdb",
+      "warehouse": "",
+      "account": "fr87930",
+      "private_key": "-----BEGIN ENCRYPTED PRIVATE KEY-----\nMIIE6TAbBgkqhkiG9w0BBQMwDgQIZreUt2Hn8/oCAggABIIEyKwMl0PFaLdACa+D\n+N2lF/GZh5fw6MIRWP/9pkUXaVvkWzWEIWeVEnqtOmtLQzUp0dvDL4RL5IBswjzC\nrladypA2AGrvP5D2G4OpsUkAkltrKMNADEK5uwd8710JJLMoo257XLYDVFMoNENM\nYjJTfYRnv4xoXCjIadZnZAyt6dZ8yhDcQ01LVoU1ISTJVnqx+eNpycFLU8BRHQ2V\nZ33sJhB3oNN0Co7Shif30Vxim4TM1G4SMnPj1ZJ4nixrHWRhBhotnt/1tL4pykF2\nJlIqfzwgDrkBcaPr7D2FEpoHFPQ6OoDz/MuEusyGqqlPlDebPCxN1idm3JNztipO\nc3wQy9FmmwGcQwDue7Y+imMpDmMZlmcObkBmb3/ZgBoiHLN2UXg81juUvJRSErFA\nJ3eFrplbOqPaWGejku6EP+6f6BT7aGd637IOQXrYV5AoJ6pnJl4mkPSUJCt69kNm\nOh+mDRMY/nbFmqZBu9kfp6U37seGxrkFHCW3uZJT6BvtzLVtqIg8kgohqwR4ACi4\npg6vLuuEY//nh4TlEex/pDI7hS66zTyEK4K7TE+c6knMpSBayDMjN3eWCqRVrUEy\nL5Ag/hO/039hZYc2suyNkUMeFvgh9+1qcecnipjkQ6tAoHmmvZ3hrHxH2Uer8PFi\ngJhpFEX4Jho+wmwQ816Q+UHkDjvInbj7c9q1liYEodL3x7aYmPIM7TnhWk2Z5IZe\n36keTjwVVJNIofsBmjkgJynHlsg5PGrUmTa0G82xP13J1zYsFkTOOevYpZ3RbYuP\nxGtCzLv1WI7Wa90Yyfh2Dw8SmHUN/DL0c4KNW2370KEkD6zLK5XfV1VW1dvYfgu2\nO2Pq+sHhYFEh2NITtVGDpKw8CH8vGknmDpb9dcwGWNkh8ot0IEAioVSlXNrKiYSg\ng8qF2M8xBSFQoEqBuTtk9XOHLFq5Om6DE5N84tcZbNpccu332hynfu5EwOFg0sex\ntgI1GfJk0M47hZsLzuFOI246JyRSIhh/MVr5WBbA3+E+LhJ6RELyC14U47i4oasu\nsaCAZ7Gcr4wN4K05YVtgi6U3cFzAKtEbhihzwooIH4G7VLs0yJd+wLAKsxP1nFA7\nDeQ/OntsGjaacFQGPSIQ628fWoxJ3mq1pMErm0Qy//7Q8ikog2HLaAYIzXhfjQcl\nH2cveiGoHmho5XYiibX2+m7lr+4FrlXufnG9rp6NpsQq4pUcqBmyEnWdS75riAbm\nx1KctKTFout2KzNfrb33Kq5MOA5YoiFKBbjNQwCUTnAhzlyV4fpmTl/tm0m8DmfI\nxb4Bg1fhgiUSNerqrTm9NWl3JHLJjJTJ8iSVrdkaGTHJaydYtrjhLT3JSs4/0y/r\nuDn/c2TZQlZK1589INdm6k6L205xi8/w2LjXHa4knZ4JMeOK+A3jKCrE6Ccj3Q0F\nP8Zgzu5+bl1EEwKtb/DdojAhMjW1IwYK8Z+2W2T2HCfvvCkpfO9wVYG1NjWXx18Z\nvCq5/Bn058Oefz8458PM5Z98w/3EdUonyWTnZdX1EqxMMJvOku1wdxmm5/+pK2+t\nbsjQUY0S5LiISvxspE3BenHDwca/DYSQUxePhOP4wOlxb5Hko4/d7nEaVeAZ3d1P\nbiEsadnprxOZneDsIw==\n-----END ENCRYPTED PRIVATE KEY-----",
       "service_name": "snowflake",
-      "table_filter_pattern": {
-        "excludes": [
-          "tpcds_sf100tcl"
-        ]
-      }
+      "query": "select * from {}.{} Limit 50"
     }
   },
   "sink": {
